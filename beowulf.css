@@ -149,3 +149,18 @@ body {
 .events-card p {
     margin: 10px 0;
 }
+
+footer {
+    background-color: slategray;
+    color: white;
+    padding: 25px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content img {
+    width: 2rem;
+    height: 2rem;
+}
