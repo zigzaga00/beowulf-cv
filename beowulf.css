@@ -43,7 +43,7 @@ body {
     opacity: 0.8;
 }
 
-.hero__content {
+.hero-content {
     padding: 0 15%;
 }
 
@@ -115,3 +115,37 @@ body {
     margin: 10px 0;
 }
 
+.events-section {
+    background-color: bisque;
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.events-content {
+    padding: 0 15%;
+}
+
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+.events-heading {
+    font-size: 1.5rem;
+}
+
+.events-location {
+    font-size: 1rem;
+}
+
+.events-card .events-date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.events-card p {
+    margin: 10px 0;
+}
