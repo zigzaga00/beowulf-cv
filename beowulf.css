@@ -58,7 +58,7 @@ body {
     font-size: 1.25rem;
 }
 
-.two-columns p {
+.two-columns > p {
     width: 50%;
     float: left;
     box-sizing: border-box;
@@ -78,3 +78,40 @@ body {
     font-size: 1rem;
     margin: 8px 0;
 }
+
+.blog-section {
+    background-color: white;
+    padding: 64px 0;   
+}
+
+.blog-content {
+    padding: 0 15%;
+}
+
+.two-columns .blog-posts {
+    width: 50%;
+    float: left;
+}
+
+.blog-heading {
+    font-size: 1.5rem;
+}
+
+.blog-text {
+    font-size: 1rem;
+}
+
+.blog-posts {
+    margin-top: 10px;
+}
+
+.blog-posts .blog-date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.blog-posts p {
+    margin: 10px 0;
+}
+
